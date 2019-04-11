@@ -66,7 +66,7 @@ describe('index.js', function () {
     })
 
     it('returns the correct reduced value when not passed an accumulator', function () {
-      expect(reduceSansAcc).to.equal(28)
+      expect(reduceSansAcc).to.equal(30)
     })
 
     it('does not modify the original array', function () {
